@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+.header_icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+  background: white
+}
+
+.header_icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #eee;;
+
+}
+
+.main_people {
+  width: 916px;
+  height: 120px;
+  border-radius: 2px;
+  border: 1px solid #DBDBDB;
+  display: flex;
+  gap: 10px;
+  position: relative;
+
+  img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+
+
+  }
+
+  button {
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+
+}
+
+.main_pursone  {
+  width: 80px;
+  height: 88px;
+  padding: 16px;
+
+
+  div {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: #e0e0e0;
+    box-shadow:
+      8px 8px 15px #bebebe,
+      -8px -8px 15px #ffffff;
+    margin-bottom: 8px;
+  }
+
+  h3 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2%;
+    text-align: center;
+    vertical-align: middle;
+
+  }
+
+}
+
+
+.insta-post {
+  width: 916px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  margin-top: 24px;
+
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.user-info {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.location {
+  color: #888;
+  font-size: 12px;
+}
+
+.menu {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.post-image {
+  background: #ddd;
+  height: 300px;
+  margin: 10px 0;
+}
+
+.post-actions {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.likes {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.caption {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.more {
+  color: gray;
+  font-size: 12px;
+}
+
+.comments-link {
+  color: gray;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.comment {
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+
+.time {
+  color: gray;
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.add-comment {
+  display: flex;
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+}
+
+.add-comment input {
+  flex: 1;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.add-comment button {
+  background: none;
+  border: none;
+  color: #0095f6;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.header_search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 6px 10px;
+  width: 240px;
+  background-color: white;
+}
+
+.header_search input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.header_search .icon_search {
+  margin-right: 8px;
+  color: #999;
+  font-size: 14px;
+}
+
+
+
+
+.sidebar {
+  width: 35%;
+  padding: 20px;
+}
+
+
+.profile-suggestions {
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.suggestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.suggestion img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #ccc;
+  margin-right: 10px;
+}
+
+.suggestion .info {
+  flex: 1;
+}
+
+.suggestion button {
+  background: none;
+  border: none;
+  color: #3897f0;
+  cursor: pointer;
+}
+
